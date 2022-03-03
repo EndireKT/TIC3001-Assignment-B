@@ -12,7 +12,7 @@ repositories {
     mavenCentral()
 }
 
-mainClassName = 'projectname.Main'
+mainClassName = 'kwic.Kwic'
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
@@ -20,7 +20,7 @@ dependencies {
 }
 
 shadowJar {
-    archiveBaseName = "projectname"
+    archiveBaseName = "kwic"
     archiveClassifier = null
 }
 
